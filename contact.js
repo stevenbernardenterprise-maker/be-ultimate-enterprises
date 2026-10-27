@@ -119,7 +119,7 @@
       });
       try {
         const selected = sessionStorage.getItem('bu-inquiry-category');
-        if (['Energy & Mining', 'Mentorship & Youth Development'].includes(selected)) {
+        if (['Energy & Mining', 'SBE Academy', 'Mentorship & Youth Development'].includes(selected)) {
           category.value = selected;
         }
         sessionStorage.removeItem('bu-inquiry-category');
